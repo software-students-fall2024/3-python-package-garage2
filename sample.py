@@ -1,8 +1,8 @@
-from src.fortunes.get_quotes_by_author import parse_fortune_file, get_quotes_by_author
-from fortune_package import get_quotes_by_author
-from fortune_package import get_fortune_cookie
-from fortune_package import send_fortune_email
-from fortune_package import getMultipleFortunes
+from fortunes.get_quotes_by_author import parse_fortune_file, get_quotes_by_author
+from fortunes.get_quotes_by_author import get_quotes_by_author
+from fortunes.random_fortune import get_fortune_cookie
+from fortunes.send_email import send_fortune_email
+from fortunes.getMultipleFortunes import getMultipleFortunes
 
 
 quotes_dict = parse_fortune_file()
