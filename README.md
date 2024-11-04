@@ -3,7 +3,7 @@
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
 # 🔮 Fortunes
-![Build Status](https://github.com/yourusername/fortunes/actions/workflows/ci.yml/badge.svg) [![PyPI Version](https://badge.fury.io/py/fortunes.svg)](https://pypi.org/project/fortunes/)
+![Build Status](https://github.com/imyhalex/3-python-package-exercise-/actions/workflows/ci.yml/badge.svg) [![PyPI Version](https://badge.fury.io/py/fortune-package.svg)](https://pypi.org/project/fortune.package/)
 
 ## 👥 Team Members
 - [Yuhao Sheng (ys4689)](https://github.com/imyhalex)
@@ -200,7 +200,12 @@ We welcome contributions from the community! Here's how you can get started:
 
    *This installs the package in editable mode along with development dependencies.*
 
-4. **Run Tests:**
+4. **Install requirements:**
+```bash
+pip install -r requirements.txt
+```
+
+5. **Run Tests:**
 
    Ensure that all tests pass before making changes.
 
@@ -278,23 +283,6 @@ We welcome contributions from the community! Here's how you can get started:
    pip install -e .[dev]
    ```
 
-4. **Configure Environment Variables:**
-
-   Create a `.env` file in the root directory with the following content:
-
-   ```env
-   SMTP_SERVER=smtp.gmail.com
-   SMTP_PORT=587
-   SMTP_USERNAME=your_email@gmail.com
-   SMTP_PASSWORD=your_email_password
-   ```
-
-   **Note:** Replace the placeholders with your actual SMTP server details and credentials.
-
-5. **Import Starter Data:**
-
-   If your project requires starter data (e.g., initial fortunes or quotes), ensure they are placed in the appropriate directories or imported using provided scripts.
-
 ### Running the Project
 
 1. **Generating a Fortune:**
@@ -345,7 +333,7 @@ Fortunes is designed to work seamlessly across all major platforms, including:
 
 Ensure that Python 3.10 or higher is installed on your system.
 
----
+
 
 ## 🔒 Handling Secret Configuration Files (Optional)
 
