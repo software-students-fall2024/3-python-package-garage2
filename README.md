@@ -3,7 +3,7 @@
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
 # 🔮 Fortunes
-![Build Status](https://github.com/imyhalex/3-python-package-exercise-/actions/workflows/ci.yml/badge.svg) [![PyPI Version](https://badge.fury.io/py/fortune-package.svg)](https://pypi.org/project/fortune.package/)
+![Build Status](https://github.com/software-students-fall2024/3-python-package-garage2/actions/workflows/build.yaml/badge.svg) [![PyPI Version](https://badge.fury.io/py/fortune-package.svg)](https://pypi.org/project/fortune.package/)
 
 ## 👥 Team Members
 - [Yuhao Sheng (ys4689)](https://github.com/imyhalex)
