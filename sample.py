@@ -17,5 +17,5 @@ random_fortune = get_fortune_cookie()
 print("\nRandom Fortune:")
 print(random_fortune)
 
-recipient = "test@example.com"
+recipient = "qy765@nyu.edu"
 send_fortune_email(recipient, author_quotes)
